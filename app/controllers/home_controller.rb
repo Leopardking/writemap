@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
-	# before_action :authenticate_user!
-	# before_filter :check_session
+  # before_action :authenticate_user!
+  # before_filter :check_session
 
   def index
     redirect_to welcome_path
