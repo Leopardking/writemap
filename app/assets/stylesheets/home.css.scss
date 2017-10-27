@@ -5,9 +5,12 @@
  * Website: http://3rdwavemedia.com/
 */
 /* ======= Base ======= */
+
+$primary-color: #00A0E6;
+
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #444444;
+  color: #555555;
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -440,7 +443,7 @@ font-weight: 300;
 }
 
 .promo {
-  background-color: #56bc94;
+  background-color: $primary-color;
   color: #fff;
 }
 .promo .container {

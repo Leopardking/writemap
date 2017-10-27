@@ -2,8 +2,103 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$primary-color: #00A0E6;
+$btn-color: #00C281;
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.vertical-center {
+  vertical-align: middle;
+}
+
 .footer {
   a {
     color: #56bc94;
   }
 }
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border-radius: 0;
+  border: 1px solid #ddd;
+  height: 50px;
+  color: #555555;
+  padding: 10px;
+
+  &::placeholder {
+    color: #333333;
+    text-transform: none;
+  }
+}
+
+input[type="submit"] {
+  background-color: $btn-color;
+  color: #fff;
+  border-radius: 0;
+  height: 50px;
+  padding: 10px;
+  border: 0;
+}
+
+input[type=checkbox] {
+  
+}
+
+.content-wrapper {
+  min-height: 100vh;
+}
+
+.sign-content {
+  min-height: 100vh;
+  background-color: $primary-color;
+  position: relative;
+}
+
+.sign-form__container {
+  max-width: 500px;
+  margin: auto;
+  background-color: transparent;
+  position: relative;
+  top: 30vh;
+
+  form {
+    background-color: #efefef;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  .field {
+    padding: 10px 0px;
+  }
+}
+
