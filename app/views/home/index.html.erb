@@ -1,0 +1,366 @@
+<header id="top" class="header navbar-fixed-top">
+    <div class="container">
+        <h1 class="logo pull-left">
+                <a  href="index.html">
+                    <!-- <img id="logo-image" class="logo-image" src="/static/images/wmlogo.png" alt="Logo"> -->
+                    <i id="logo-icon" class="fa fa-sitemap"></i><span class="logo-title"> WriteMaps</span>
+                </a>
+            </h1>
+        <!--//logo-->
+        <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--//nav-toggle-->
+            </div>
+            <!--//navbar-header-->
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active"><a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item "><a href="features/index.html">Features</a>
+                    </li>
+
+                    <li class="nav-item "><a href="pricing/index.html">Pricing</a>
+                    </li>
+
+
+                    <!--  <li class="nav-item"><a href="/accounts/login/">Log in</a></li> -->
+                    <li class="nav-item last"><a data-toggle="modal" href="#myModal" role="button">Log in</a>
+                    </li>
+
+                </ul>
+                <!--//nav-->
+            </div>
+            <!--//navabr-collapse-->
+        </nav>
+        <!--//main-nav-->
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="container">
+            <div class="row vertical-offset-100">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <button class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="panel-title">Log In</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form class="login" method="POST" action="https://writemaps.com/accounts/login/" accept-charset="UTF-8" role="form">
+                                <fieldset>
+                                    <input type='hidden' name='csrfmiddlewaretoken' value='uz4Eeoi0KTnujfusctZgxTtRFw4vhKaSu29aZlDkvvMUEPgGbOPVK6OoY0E6LbHJ' />
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Email" name="login" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input name="remember" type="checkbox" value="Remember Me"> Remember Me
+                                        </label>
+                                    </div>
+                                    <input class="btn btn-lg btn-theme btn-block primaryAction" type="submit" value="Login">
+                                    <a href="accounts/password/reset/index.html">Forgot your Password?</a>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end myModal -->
+</header>
+<!--//header-->
+
+
+
+<!-- ******PROMO****** -->
+<section id="promo" class="promo section offset-header has-pattern">
+    <div class="container">
+        <div class="row">
+            <h1 class="title text-center animated fadeInUp delayp1 hero" style="opacity: 0;">Plan websites fast</h1>
+            <h2 class="title text-center hero-sub hidden-xs">WriteMaps helps you make sitemaps and gather content</h2>
+            <div class="col-md-10 col-md-offset-1 margin-top1"><img class="center-block img-rounded img-responsive" src="static/images/carousel/writemaps-slide1.png" alt="website architecture with sitemap builder" />
+            </div>
+            <div id="overview" class="overview col-md-6 col-md-offset-3">
+                <div class="download-area">
+                    <ul class="btn-group list-inline">
+                        <li><a id="fontsize1p7" class="btn btn-lg" href="pricing/index.html">Get started</a>
+                        </li>
+                        <li><a id="fontsize1p7" class="btn btn-lg" href="features/index.html">Learn more</a>
+                        </li>
+                    </ul>
+                    <div class="note text-center visible-lg">
+                        <p>Sign up for a 15 day Free Trial
+                            <br />Or check out the features</p>
+                        <span class="left-arrow"></span>
+                        <span class="right-arrow"></span>
+                    </div>
+                    <!--//note-->
+                </div>
+            </div>
+            <!--//overview-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</section>
+<!--//promo-->
+<section id="features" class="features section">
+    <div class="container">
+        <div class="row">
+            <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="icon">
+                    <i class="fa fa-sitemap"></i>
+                </div>
+                <!--//icon-->
+                <div class="content">
+                    <h3 class="title">SITEMAP IN SECONDS</h3>
+                    <p>Jump from vague ideas to a concrete plan with just a few clicks. Every time you plan a website, WriteMaps helps you to stay 100% focused on the planning, and not lose time on formatting.</p>
+                </div>
+                <!--//content-->
+            </div>
+            <!--//item-->
+            <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+                <!--//icon-->
+                <div class="content">
+                    <h3 class="title">SHARE YOUR SITEMAP</h3>
+                    <p>Simply share your sitemap with a unique URL to get input and signoff from your team or client. With just one click, they have eyes on the sitemap, no wasting time with creating accounts.</p>
+                </div>
+                <!--//content-->
+            </div>
+            <!--//item-->
+            <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                </div>
+                <!--//icon-->
+                <div class="content">
+                    <h3 class="title">COLLECT PAGE CONTENT</h3>
+                    <p>Share with your client or copywriter to fill with content. With WriteMaps, all your content is neatly organised and you can jump to the content of any page instantly and without fuss.</p>
+                </div>
+                <!--//content-->
+            </div>
+            <!--//item-->
+        </div>
+        <!--//row-->
+        <div class="row">
+            <h2 class="title text-center animated fadeInUp delayp1" style="opacity: 0;">Take a look inside..</h2>
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                <!-- Indicators -->
+                <!-- <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                        <li data-slide-to="1" data-target="#myCarousel"></li>
+                        <li data-slide-to="2" data-target="#myCarousel"></li>
+                    </ol>
+                -->
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" id="slide1">
+                        <img src="static/images/carousel/writemaps-slide1.png" alt="sitemap builder tool" class="img-responsive">
+                    </div>
+                    <!-- end item -->
+                    <div class="item" id="slide2">
+                        <img src="static/images/carousel/writemaps-slide2.png" alt="create content for sitemap" class="img-responsive">
+                    </div>
+                    <!-- end item -->
+                    <div class="item" id="slide3">
+                        <img src="static/images/carousel/writemaps-slide3.png" alt="website architecture with sitemap builder" class="img-responsive">
+                    </div>
+                    <!-- end item -->
+                </div>
+                <!-- end carousel-inner -->
+                <!-- Controls -->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end of carousel -->
+</section>
+<!-- ******TESTIMONIALS****** -->
+<section id="features" class="how features section has-pattern">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 text-center">
+                <h2>What do people think?</h2>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-offset-2 col-md-8'>
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#quote-carousel" data-slide-to="1"></li>
+                        <li data-target="#quote-carousel" data-slide-to="2"></li>
+                        <li data-target="#quote-carousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="static/images/people/matt_sm.jpg" alt="sitemap creator" style="width: 100px;height:100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>We've used Writemaps for several years and it's saved us a lot of time. Because it's online and simple for our clients to use, the process of putting a sitemap together is much quicker, it's become one of the essential tools in our website development process.</p>
+                                        <small>
+                                                <span class="name">Matt M., </span>
+                                                <span>Director, <a href="http://www.practicepl.us/" >Practice Plus</a></span>
+                                            </small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="static/images/people/p1124.jpeg" alt="sitemap creator" style="width: 100px;height:100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>I came across WriteMaps and used it within my team. I couldn't keep a great tool like this secret, and now our whole company uses it.</p>
+                                        <small>
+                                                <span class="name">Paul W.</span>
+                                                <span>Online Marketing, <a href="http://www.urbanelement.com/" >Urban Element</a></span>
+                                            </small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="static/images/people/t732.png" alt="sitemap creator" style="width: 100px;height:100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>Wow I really like the ease of use for making site maps / hierarchies for client sign off that writemaps.com provides.</p>
+                                        <small>Tiffany</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 4 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="static/images/people/s374.jpg" alt="sitemap creator" style="width: 100px;height:100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>Been using WriteMaps today to create sitemaps for a few client websites. Really flexible, easy to use and share</p>
+                                        <small>Sarah</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 5 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="static/images/people/clarissa.jpg" alt="clarissa" style="width: 100px;height:100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>I have used Writemaps for our website relaunch. Writemaps allowed us to share content ideas and structure for our new website. It was the sitemap tool with the best UX we found so we really recommend it.</p>
+                                        <small>
+                                                <span class="name">Clarissa Amaral, </span>
+                                                <span>Online Marketing Manager, <a href="http://www.paymill.com/">PAYMILL</a></span>
+                                            </small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//container-->
+</section>
+<!--//features-->
+<section class="promo section offset-header has-pattern">
+    <div class="container">
+        <div class="row">
+            <h1 class="title text-center animated fadeInUp delayp1 hero" style="opacity: 0;">Try WriteMaps free for 15 days</h1>
+            <h2 class="title text-center hero-sub hidden-xs">Make visual sitemaps in seconds, collect content with ease</h2>
+            <a href="pricing/index.html">
+                <button id="fontsize1p7" class="btn cta-dark center-block" type="submit">Get started</button>
+            </a>
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</section>
+<!--//promo-->
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="row" id="footer-ul-content">
+            <div class="col-sm-3">
+                <h6>LEARN MORE</h6>
+                <ul class="list-unstyled">
+                    <li><a href="features/index.html">Features</a>
+                    </li>
+                    <li><a href="pricing/index.html">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end col-sm-3 -->
+            <div class="col-sm-3">
+                <h6>ABOUT</h6>
+                <ul class="list-unstyled">
+                    <li><a href="about/index.html">About WriteMaps</a>
+                    </li>
+                    <li><a href="learn/category/account-faqs.html">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end col-sm-3 -->
+            <div class="col-sm-3">
+                <h6>LEGAL POLICIES</h6>
+                <ul class="list-unstyled">
+                    <li><a href="terms-of-service/index.html">Terms of Service</a>
+                    </li>
+                    <li><a href="privacy-policy/index.html">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end col-sm-3 -->
+            <div class="col-sm-3">
+                <h6>SUPPORT</h6>
+                <ul class="list-unstyled">
+                    <li><a href="learn/index.html">Learning Center</a>
+                    </li>
+                    <li><a href="contact/index.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end col-sm-3 -->
+        </div>
+        <!-- end row -->
+        <h6 class="copyright text-center">Copyright &copy; 2017 WriteMaps</h6>
+    </div>
+    <!-- end container -->
+</footer>
