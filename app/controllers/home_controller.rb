@@ -3,6 +3,7 @@ class HomeController < ApplicationController
 	# before_filter :check_session
 
   def index
+    redirect_to welcome_path
   end
 
   def create

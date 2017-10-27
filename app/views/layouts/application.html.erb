@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>DemandSphere</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="description" content="Demandsphere">
+  <head>
+    <title>DemandSphere</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demandsphere">
 
-	  <%= stylesheet_link_tag    "application", :media => "all" %>
-	  <%= javascript_include_tag "application" %>
-	  <%= csrf_meta_tags %>
-	</head>
-	<body class="logged-out" data-spy="scroll">
-		<%= yield %>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
 
-		<p><%= notice %></p>
-		<p><%= alert %></p>
-	</body>
+  <body>
+    <%= yield %>
+
+    <!-- <p><%= notice %></p>
+    <p><%= alert %></p> -->
+  </body>
 </html>
