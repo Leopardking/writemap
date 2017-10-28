@@ -1,10 +1,10 @@
 <header id="top" class="header navbar-fixed-top">
     <div class="container">
         <h1 class="logo pull-left">
-                <a  href="index.html">
+                <%= link_to welcome_path, class: 'color-primary vertical-center' do %>
                     <!-- <img id="logo-image" class="logo-image" src="/static/images/wmlogo.png" alt="Logo"> -->
                     <i id="logo-icon" class="fa fa-sitemap"></i><span class="logo-title"> DEMANDSPHERE</span>
-                </a>
+                <% end %>
             </h1>
         <!--//logo-->
         <nav id="main-nav" class="main-nav navbar-right" role="navigation">
@@ -20,12 +20,13 @@
             <!--//navbar-header-->
             <div class="navbar-collapse collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item active"><a href="index.html">Home</a>
+                    <li class="nav-item active">
+                        <%= link_to "Home", welcome_path %>
                     </li>
-                    <li class="nav-item "><a href="features/index.html">Features</a>
+                    <li class="nav-item "><a href="#">Features</a>
                     </li>
 
-                    <li class="nav-item "><a href="pricing/index.html">Pricing</a>
+                    <li class="nav-item "><a href="#">Pricing</a>
                     </li>
 
 

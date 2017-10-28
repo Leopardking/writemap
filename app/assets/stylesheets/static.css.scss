@@ -13,6 +13,10 @@ $btn-color: #00C281;
   color: #fff;
 }
 
+.color-primary {
+  color: $primary-color !important;
+}
+
 .font-bold {
   font-weight: bold;
 }
@@ -29,6 +33,10 @@ $btn-color: #00C281;
   a {
     color: #56bc94;
   }
+}
+
+.mt-10 {
+  margin-top: 10px;
 }
 
 .mb-10 {
@@ -84,8 +92,13 @@ input[type=checkbox] {
   position: relative;
   top: 30vh;
 
+  .sign-form__container a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
   form {
-    background-color: #efefef;
+    background-color: #FBFBFB;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
@@ -99,6 +112,28 @@ input[type=checkbox] {
 
   .field {
     padding: 10px 0px;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn {
+  background-color: $btn-color;
+  color: #fff;
+
+  &:hover {
+    background-color: #05AB73 !important;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
   }
 }
 

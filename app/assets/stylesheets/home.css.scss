@@ -7,6 +7,7 @@
 /* ======= Base ======= */
 
 $primary-color: #00A0E6;
+$btn-color: #00C281;
 
 body {
   font-family: 'Lato', arial, sans-serif;
@@ -362,7 +363,7 @@ font-weight: 300;
   margin-right: 10px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #56bc94;
+  color: $primary-color;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
@@ -373,11 +374,11 @@ font-weight: 300;
   -o-transition: none;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #56bc94;
+  color: $primary-color;
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: #56bc94;
+  color: $primary-color;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
@@ -406,6 +407,10 @@ font-weight: 300;
 }
 .footer .links a:hover {
   color: #56bc94;
+}
+
+.list-unstyled a {
+  color: $primary-color !important;
 }
 /* ======= FlexSlider ======= */
 .flexslider {
@@ -483,7 +488,7 @@ font-weight: 300;
 
 }
 .cta-dark {
-  background-color: #317b5e;
+  background-color: $btn-color;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -510,7 +515,7 @@ font-weight: 300;
 }
 
 .promo .overview .btn-group li a {
-  background-color: #317b5e;
+  background-color: $btn-color;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -540,7 +545,7 @@ font-weight: 300;
 }
 .promo .overview .note {
   position: relative;
-  color: #317b5e;
+  color: $btn-color;
 }
 .promo .overview .note p {
   padding-top: 15px;
