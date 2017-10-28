@@ -5,6 +5,7 @@ gem 'pg'
 gem 'devise'
 gem 'jquery-rails'
 gem 'puma'
+gem 'bootstrap-sass'
 # gem 'debugger'
 
 group :assets do
