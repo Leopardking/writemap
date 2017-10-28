@@ -1,7 +1,7 @@
 <header id="top" class="header navbar-fixed-top">
     <div class="container">
         <h1 class="logo pull-left">
-                <%= link_to welcome_path, class: 'color-primary vertical-center' do %>
+                <%= link_to root_path, class: 'color-primary vertical-center' do %>
                     <!-- <img id="logo-image" class="logo-image" src="/static/images/wmlogo.png" alt="Logo"> -->
                     <i id="logo-icon" class="fa fa-sitemap"></i><span class="logo-title"> DEMANDSPHERE</span>
                 <% end %>
@@ -32,7 +32,11 @@
 
                     <!--  <li class="nav-item"><a href="/accounts/login/">Log in</a></li> -->
                     <li class="nav-item last">
-                        <%= link_to "Log In", new_user_session_path %>
+                        <% if user_signed_in? %>
+                            <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+                        <% else %>
+                            <%= link_to "Log In", new_user_session_path %>
+                        <% end %>
                     </a>
                     </li>
 

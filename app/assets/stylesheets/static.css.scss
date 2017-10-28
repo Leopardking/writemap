@@ -4,6 +4,7 @@
 
 $primary-color: #00A0E6;
 $btn-color: #00C281;
+$red: red;
 
 .text-upper {
   text-transform: uppercase;
@@ -37,6 +38,14 @@ $btn-color: #00C281;
 
 .mt-10 {
   margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mb-10 {
@@ -137,3 +146,65 @@ a {
   }
 }
 
+section.page-wrapper {
+  padding: 100px 10vw 20px;
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+.card-special {
+  position: fixed;
+  right: 30px;
+  width: 400px;
+  height: 350px;
+
+}
+.card-offset {
+  margin-left: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+  min-height: 350px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  color: $red;
+
+  &__icon {
+    font-size: 6em;
+  }
+}
+
+.card-body {
+  font-size: 1.2em;
+  color: #555555;
+
+  &__link {
+    a {
+      color: #555555;
+      text-decoration: underline;
+    }
+  }
+}
+
+.sub-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card-left {
+  .card-title {
+    color: #555555;
+    text-align: left;
+
+    &__icon {
+      text-align: left;
+    }
+  }
+}

@@ -3,7 +3,9 @@ class HomeController < ApplicationController
   # before_filter :check_session
 
   def index
-    redirect_to welcome_path
+    unless user_signed_in?
+      redirect_to welcome_path
+    end
   end
 
   def create
