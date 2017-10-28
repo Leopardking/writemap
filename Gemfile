@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'puma'
 gem 'bootstrap-sass'
 # gem 'debugger'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

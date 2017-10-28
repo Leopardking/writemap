@@ -19,5 +19,5 @@ production:
   encoding: unicode
   database: writemap_production
   pool: 5
-  username: postgres
-  password: postgres
+  username: ENV['DATABASE_USERNAME']
+  password: ENV['DATABASE_PASSWORD']
