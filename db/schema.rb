@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20171026144033) do
+ActiveRecord::Schema.define(:version => 20171105170549) do
+
+  create_table "sitemaps", :force => true do |t|
+    t.string   "name"
+    t.string   "title"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "user_id"
+  end
+
+  add_index "sitemaps", ["user_id"], :name => "index_sitemaps_on_user_id"
 
   create_table "users", :force => true do |t|
     t.datetime "created_at",                             :null => false

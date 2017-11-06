@@ -1,5 +1,8 @@
 Writemap::Application.routes.draw do
+
+
   devise_for :users
+  resources :sitemaps
   
   root to: "home#index"
 

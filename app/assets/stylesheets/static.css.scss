@@ -213,3 +213,39 @@ section.page-wrapper {
     }
   }
 }
+
+a:hover {
+  background-color: transparent;
+}
+
+.form_article {
+  height: 400px;
+  width: 850px;
+  background-color: #fff;
+  border: 2px solid #E6E6E6;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.form_title {
+  border-bottom: 2px solid #E6E6E6;
+
+  h3 {
+    padding: 7px 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #5B5B5B;
+  }
+}
+
+.form_btn {
+  text-align: center;
+
+  button.btn.cta-dark.center-block {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px 50px;
+    width: auto;
+    margin-top: 115px;
+  }
+}

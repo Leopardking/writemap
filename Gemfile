@@ -5,7 +5,6 @@ gem 'pg'
 gem 'devise'
 gem 'jquery-rails'
 gem 'puma'
-gem 'bootstrap-sass'
 # gem 'debugger'
 gem 'dotenv-rails', groups: [:development, :test]
 
